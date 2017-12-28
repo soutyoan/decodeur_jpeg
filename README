@@ -1,0 +1,21 @@
+Décodeur .jpeg/.jpg -> .ppm en langage C
+Omar Belmoudden, Théo Cachet et Yoan Souty
+ENSIMAG 1A Juin/2017
+
+Structure du dossier :
+	-src: contient les fichiers .c
+	-include : contient les entêtes .h
+	-obj : contient les fichiers objets .o
+	-bin: contient l'exécutable jpeg2ppm
+	-images : contient des images tests .jpeg .jpg
+
+Pour faire marcher le décodeur :
+	make 
+	./bin/jpeg2ppm <nom image>.jpeg
+
+
+Remarque(s) :
+	-Le décodeur accepte les images .jpeg .jpg encodées en mode {JFIF, baseline séquentiel, DCT, Huffman} sont
+	 acceptées (application de type APP0).
+	-Si vous lisez ce README depuis Github, le projet a été fait avec le dépôt git de l'ENSIMAG.
+
