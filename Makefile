@@ -56,3 +56,4 @@ $(OBJ_DIR)/bitstream.o: $(SRC_DIR)/bitstream.c
 
 clean:
 	rm -f $(TARGET) $(OBJ_FILES)
+	rm -f images/*.pgm images/*.ppm
